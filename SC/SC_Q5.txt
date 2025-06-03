@@ -1,0 +1,9 @@
+1. Overfitting occurs when a machine learning model learns the training data too well, including its noise and outliers, which causes it to perform poorly on new and unseen data. This means that the model has low error on training data but high error on test data, indicating poor generalization.
+
+2. I would use a decision tree over logistic regression when I need to handle non-linear relationships or when the data has clear, rule-based splits that are easier to interpret. Decision trees can also naturally handle both numerical and categorical features without requiring feature scaling.
+
+3. Train-test split involves dividing the dataset into separate parts for training the model and testing it (usually 80-20 split), which helps evaluate how well the model will generalize to new data. Without it, you risk evaluating your model on the same data it was trained on, giving a misleading sense of accuracy.
+
+4. Normalization scales numerical features to a common range, usually from 0 to 1, which helps models converge faster and prevents features with larger values from dominating. It's especially important for algorithms like gradient descent or k-nearest neighbors that are sensitive to feature scale.
+
+5. Classification predicts categories or labels (like spam or not spam), while regression predicts continuous values (like house prices or temperatures). In short, classification answers “what type/class?” and regression answers “how much?” or “how many?”.
